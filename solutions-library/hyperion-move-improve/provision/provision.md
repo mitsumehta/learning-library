@@ -94,7 +94,7 @@ You may proceed to the next lab.
 
 ## Acknowledgements
 * **Author** - Mitsu Mehta, Cloud Engineering
-* **Contributors** -  Terry Harber, Rojal Bhadke
+* **Contributors** - Rojal Bhadke, Software Development Director, EPM Consolidation
 * **Last Updated By/Date** - Mitsu Mehta, Cloud Engineering, December 2020
 
 ## See an issue?
