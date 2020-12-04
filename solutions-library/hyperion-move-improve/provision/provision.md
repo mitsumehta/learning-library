@@ -89,8 +89,8 @@ Plan is in progress
 
 19.	Once it completes, Apply state will be succeeded and all the instance will have assigned host, ips , user and password.
 
+You can click on the Outputs option under Resources on the left pane. Record all the IPs and default passwords for the compute instances. 
 
-*At the conclusion of the lab add this statement:*
 You may proceed to the next lab.
 
 
