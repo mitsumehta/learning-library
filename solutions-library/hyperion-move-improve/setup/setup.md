@@ -31,11 +31,9 @@ To perform the lab, you will need -
 
 3. Open your terminal on your local system and login to the Linux bastion host using the command – 
 
-``ssh -i <path_of_the_private_key> opc@<public_IP_address>``
+   ``ssh -i <path_of_the_private_key> opc@<public_IP_address>``
 
-
-*e.g. ssh -i /Users/mimehta/Desktop/sshkeybundle/privateKey opc@193.122.148.251*
-
+   *e.g. ssh -i /Users/mimehta/Desktop/sshkeybundle/privateKey opc@193.122.148.251*
 
 4. Once you are logged in to the server, 
 
@@ -57,12 +55,13 @@ To perform the lab, you will need -
 
 5. Enter the following command – 
 
-`` vncserver``
+      `` vncserver``
 
 6. On a new terminal window, enter the following command for port forwarding. 
 
-`` ssh -i <path_of_the_private_key> -L 5901:127.0.0.1:5901 opc@<public_IP_address>
-   ssh -i /Users/mimehta/Desktop/sshkeybundle/privateKey -L 5901:127.0.0.1:5901 opc@193.122.148.251``
+   `` ssh -i <path_of_the_private_key> -L 5901:127.0.0.1:5901 opc@<public_IP_address>``
+   
+   *eg - ssh -i /Users/mimehta/Desktop/sshkeybundle/privateKey -L 5901:127.0.0.1:5901 opc@193.122.148.251*
 
 7. Open the VNC viewer and enter the value in the text bar as **localhost:5901**
 
