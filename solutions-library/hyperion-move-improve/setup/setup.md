@@ -31,9 +31,9 @@ To perform the lab, you will need -
 
 3. Open your terminal on your local system and login to the Linux bastion host using the command – 
 
-ssh -i <path_of_the_private_key> opc@<public_IP_address>
+``ssh -i <path_of_the_private_key> opc@<public_IP_address>``
 
-e.g. ssh -i /Users/mimehta/Desktop/sshkeybundle/privateKey opc@193.122.148.251
+``e.g. ssh -i /Users/mimehta/Desktop/sshkeybundle/privateKey opc@193.122.148.251``
 
 4. Once you are logged in to the server, 
 
