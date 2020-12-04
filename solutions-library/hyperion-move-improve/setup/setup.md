@@ -39,21 +39,21 @@ To perform the lab, you will need -
 
 4. Once you are logged in to the server, 
 
-a. Install gnome-desktop, using the command – 
+   a. Install gnome-desktop, using the command – 
 
-`` sudo yum groupinstall "gnome-desktop" -y ``
+      `` sudo yum groupinstall "gnome-desktop" -y ``
 
-b. Install tigervnc-server, using the command – 
+   b. Install tigervnc-server, using the command – 
 
-`` sudo yum install "tigervnc-server" -y `` 
+      `` sudo yum install "tigervnc-server" -y `` 
 
-c. Install remmina using the command 	
+   c. Install remmina using the command 	
 
-`` sudo yum install remmina``
+      `` sudo yum install remmina``
 
-d. Install Firefox using the command 	
+   d. Install Firefox using the command 	
 
-`` sudo yum install firefox ``
+      `` sudo yum install firefox ``
 
 5. Enter the following command – 
 
