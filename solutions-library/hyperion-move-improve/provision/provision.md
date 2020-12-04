@@ -2,12 +2,9 @@
 
 ## Introduction
 
-This lab walks you through the steps to provision all the required resources for running Hyperion on OCI. We will use a resource manager zip folder to provision the resources. 
+This lab walks you through the steps to provision all the required resources for running Hyperion on OCI using a resource manager package
 
 Estimated Lab Time: 40 minutes
-
-### About Product/Technology
-Enter background information here..
 
 ### Objectives
 
@@ -94,18 +91,11 @@ Plan is in progress
 *At the conclusion of the lab add this statement:*
 You may proceed to the next lab.
 
-## Learn More
-
-*(optional - include links to docs, white papers, blogs, etc)*
-
-* [URL text 1](http://docs.oracle.com)
-* [URL text 2](http://docs.oracle.com)
 
 ## Acknowledgements
-* **Author** - <Name, Title, Group>
-* **Contributors** -  <Name, Group> -- optional
-* **Last Updated By/Date** - <Name, Group, Month Year>
-* **Workshop (or Lab) Expiry Date** - <Month Year> -- optional, use this when you are using a Pre-Authorized Request (PAR) URL to an object in Oracle Object Store.
+* **Author** - Mitsu Mehta, Cloud Engineering
+* **Contributors** -  Terry Harber, Rojal Bhadke
+* **Last Updated By/Date** - Mitsu Mehta, Cloud Engineering, December 2020
 
 ## See an issue?
 Please submit feedback using this [form](https://apexapps.oracle.com/pls/apex/f?p=133:1:::::P1_FEEDBACK:1). Please include the *workshop name*, *lab* and *step* in your request.  If you don't see the workshop name listed, please enter it manually. If you would like us to follow up with you, enter your email in the *Feedback Comments* section.
