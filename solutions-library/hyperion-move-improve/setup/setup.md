@@ -78,12 +78,16 @@ d. Install Firefox using the command
 
 4. Select RDP from the list of protocols, Enter the private IP address of the epmfndash11 in the text box and hit enter. You will be prompted to enter the initial password that you have taken a note of. 
  
+5. On this step you will have to reset the password for the Windows instance. For this exercise, keep the standard password as **Welcome#1234**.
+
+6. Repeat this exercise for the other two Windows instances - emphfmash11, epmwebash11.
+
+Once you have verified login for all the compute instances, you can proceed to the next lab.
 
 ## Acknowledgements
-* **Author** - <Name, Title, Group>
-* **Contributors** -  <Name, Group> -- optional
-* **Last Updated By/Date** - <Name, Group, Month Year>
-* **Workshop (or Lab) Expiry Date** - <Month Year> -- optional, use this when you are using a Pre-Authorized Request (PAR) URL to an object in Oracle Object Store.
+* **Author** - Mitsu Mehta, Cloud Engineering
+* **Contributors** - Rojal Bhadke, Software Development Director, EPM Consolidation
+* **Last Updated By/Date** - Mitsu Mehta, Cloud Engineering, December 2020
 
 ## See an issue?
 Please submit feedback using this [form](https://apexapps.oracle.com/pls/apex/f?p=133:1:::::P1_FEEDBACK:1). Please include the *workshop name*, *lab* and *step* in your request.  If you don't see the workshop name listed, please enter it manually. If you would like us to follow up with you, enter your email in the *Feedback Comments* section.
