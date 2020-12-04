@@ -2,98 +2,82 @@
 
 ## Introduction
 
-*Describe the lab in one or two sentences, for example:* This lab walks you through the steps to ...
+This lab will setup the Linux and Windows instances provisioned in previous lab. We will enable the required ports, and install the tools required to access the environments provisioned. 
 
-Estimated Lab Time: n minutes
-
-### About Product/Technology
-Enter background information here..
+Estimated Lab Time: 20 minutes
 
 ### Objectives
 
-*List objectives for the lab - if this is the intro lab, list objectives for the workshop*
-
 In this lab, you will:
-* Objective 1
-* Objective 2
-* Objective 3
+* Open the required ports on app, db, and web security lists
+* Download and install VNC viewer and Reminna to SSH and RDP into the app servers
+* Login to reset and verify to all 3 Windows compute instances that are going to be used for HFM, FDMEE, and Foundation server respectively.
 
 ### Prerequisites
 
-*Use this section to describe any prerequisites, including Oracle Cloud accounts, set up requirements, etc.*
+To perform the lab, you will need - 
 
-* An Oracle Free Tier, Always Free, Paid or LiveLabs Cloud Account
-* Item no 2 with url - [URL Text](https://www.oracle.com).
+* Tenancy username 
+* Tenancy password
+* Private-key of the SSH key bundle used in the previous lab while provisioning the instances. 
+* Public IP address of the Linux host noted down in the previous lab
+* Default passwords and IP address of the Windows hosts.
 
-*This is the "fold" - below items are collapsed by default*
+## **STEP 1**: Installing TigerVNC to the Linux host
 
-## **STEP 1**: title
+1. Login to your OCI account and click on the hamburger menu on the top left corner –> Click on Compute -> Click on Instances. 
 
-Step 1 opening paragraph.
+2. Click on the epmbasash11 instance and copy the public IP address.
 
-1. Sub step 1
+3. Open your terminal on your local system and login to the Linux bastion host using the command – 
 
-  To create a link to local file you want the reader to download, use this format:
+ssh -i <path_of_the_private_key> opc@<public_IP_address>
 
-  Download the [starter file](files/starter-file.sql) SQL code.
+e.g. ssh -i /Users/mimehta/Desktop/sshkeybundle/privateKey opc@193.122.148.251
 
-  *Note: do not include zip files, CSV, PDF, PSD, JAR, WAR, EAR, bin or exe files - you must have those objects stored somewhere else. We highly recommend using Oracle Cloud Object Store and creating a PAR URL instead. See [Using Pre-Authenticated Requests](https://docs.cloud.oracle.com/en-us/iaas/Content/Object/Tasks/usingpreauthenticatedrequests.htm)*
+4. Once you are logged in to the server, 
 
-2. Sub step 2 with image and link to the text description below. The `sample1.txt` file must be added to the `files` folder.
+a. Install gnome-desktop, using the command – 
 
-    ![Image alt text](images/sample1.png "Image title")
+`` sudo yum groupinstall "gnome-desktop" -y ``
 
-3. Ordered list item 3 with the same image but no link to the text description below.
+b. Install tigervnc-server, using the command – 
 
-    ![Image alt text](images/sample1.png)
+`` sudo yum install "tigervnc-server" -y `` 
 
-4. Example with inline navigation icon ![Image alt text](images/sample2.png) click **Navigation**.
+c. Install remmina using the command 	
 
-5. One example with bold **text**.
+`` sudo yum install remmina``
 
-   If you add another paragraph, add 3 spaces before the line.
+d. Install Firefox using the command 	
 
-## **STEP 2:** title
+`` sudo yum install firefox ``
 
-1. Sub step 1
+5. Enter the following command – 
 
-  Use tables sparingly:
+`` vncserver``
 
-  | Column 1 | Column 2 | Column 3 |
-  | --- | --- | --- |
-  | 1 | Some text or a link | More text  |
-  | 2 |Some text or a link | More text |
-  | 3 | Some text or a link | More text |
+6. On a new terminal window, enter the following command for port forwarding. 
 
-2. You can also include bulleted lists - make sure to indent 4 spaces:
+`` ssh -i <path_of_the_private_key> -L 5901:127.0.0.1:5901 opc@<public_IP_address>
 
-    - List item 1
-    - List item 2
+   ssh -i /Users/mimehta/Desktop/sshkeybundle/privateKey -L 5901:127.0.0.1:5901 opc@193.122.148.251 
+``
 
-3. Code examples
+7. Open the VNC viewer and enter the value in the text bar as **localhost:5901**
 
-    ```
-    Adding code examples
-  	Indentation is important for the code example to appear inside the step
-    Multiple lines of code
-  	<copy>Enclose the text you want to copy in <copy></copy>.</copy>
-    ```
+8. You should now be able to see the Desktop of the Linux instance on VNC viewer. 
 
-4. Code examples that include variables
+## **STEP 2:** Setting up the Windows systems
 
-	```
-  <copy>ssh -i <ssh-key-file></copy>
-  ```
+1. We will now setup and verify the three Windows compute instances provisioned. To log into the private IP address of EPM web, HFM, and foundation servers, you need the private IP address of these instances. Retrieve the IP address from OCI console -> Left top Hamburger menu -> Compute -> Instances. Navigate to the compartment and region where you have provisioned the resources and take a note of the IP address for all three servers - **epmfndash11, emphfmash11, epmwebash11**
 
-*At the conclusion of the lab add this statement:*
-You may proceed to the next lab.
+2. Make a note of the Initial password of all three instances.
 
-## Learn More
+3. Now go back to the Tiger VNC viewer, open Remmina application from the application list. Click on Application -> Internet -> Remmina. 
 
-*(optional - include links to docs, white papers, blogs, etc)*
-
-* [URL text 1](http://docs.oracle.com)
-* [URL text 2](http://docs.oracle.com)
+4. Select RDP from the list of protocols, Enter the private IP address of the epmfndash11 in the text box and hit enter. You will be prompted to enter the initial password that you have taken a note of. 
+ 
 
 ## Acknowledgements
 * **Author** - <Name, Title, Group>
