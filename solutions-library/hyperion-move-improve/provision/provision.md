@@ -43,10 +43,8 @@ Select Number of Nodes for an application
 Select Instance Shape, Volume Size and Volume performance.
 
 8.	Select the Number of Instance shape Volume Size and Volume performance for the Foundation
- 
 
 9.	Select Create EPM Database
-
 
 Provide the required details
 
@@ -67,23 +65,16 @@ Go through the summary of the selection and confirm your selection
 
 Notice that Plan is in progress.
 Once the Plan Succeeded
-
  
-16.	Go back to Stack Details
- 
+16.	Go back to Stack Details 
 
 Notice that you plan is listed in succeeded status.
+
 17.	Click on Terraform Actions -> Apply
  
- 
-
 18.	Click on Apply
 
- 
-
 Plan will be in Accepted state
-
- 
 
 Plan is in progress
 
