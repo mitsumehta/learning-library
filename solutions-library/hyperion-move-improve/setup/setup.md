@@ -33,7 +33,9 @@ To perform the lab, you will need -
 
 ``ssh -i <path_of_the_private_key> opc@<public_IP_address>``
 
-``e.g. ssh -i /Users/mimehta/Desktop/sshkeybundle/privateKey opc@193.122.148.251``
+
+*e.g. ssh -i /Users/mimehta/Desktop/sshkeybundle/privateKey opc@193.122.148.251*
+
 
 4. Once you are logged in to the server, 
 
