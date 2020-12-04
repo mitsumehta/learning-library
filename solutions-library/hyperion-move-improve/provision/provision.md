@@ -2,88 +2,94 @@
 
 ## Introduction
 
-*Describe the lab in one or two sentences, for example:* This lab walks you through the steps to ...
+This lab walks you through the steps to provision all the required resources for running Hyperion on OCI. We will use a resource manager zip folder to provision the resources. 
 
-Estimated Lab Time: n minutes
+Estimated Lab Time: 40 minutes
 
 ### About Product/Technology
 Enter background information here..
 
 ### Objectives
 
-*List objectives for the lab - if this is the intro lab, list objectives for the workshop*
-
 In this lab, you will:
-* Objective 1
-* Objective 2
-* Objective 3
+* Download the zip folder for HFM installation on OCI
+* Run resource manager to provision the environment
 
 ### Prerequisites
 
-*Use this section to describe any prerequisites, including Oracle Cloud accounts, set up requirements, etc.*
-
 * An Oracle Free Tier, Always Free, Paid or LiveLabs Cloud Account
-* Item no 2 with url - [URL Text](https://www.oracle.com).
 
-*This is the "fold" - below items are collapsed by default*
+## **STEP 1**: Download the resource manager package 
 
-## **STEP 1**: title
+Go the URL and download the hyperion.zip folder from this link - HERE. (add pre-auth request here)
 
-Step 1 opening paragraph.
+## **STEP 2:** Create OCI infrastructyre using terraform configuration file
 
-1. Sub step 1
+1.	Login to OCI
 
-  To create a link to local file you want the reader to download, use this format:
+2.	Go to Menu -> Compute
 
-  Download the [starter file](files/starter-file.sql) SQL code.
+3.	Go to Menu -> Resource Manger -> Stacks
 
-  *Note: do not include zip files, CSV, PDF, PSD, JAR, WAR, EAR, bin or exe files - you must have those objects stored somewhere else. We highly recommend using Oracle Cloud Object Store and creating a PAR URL instead. See [Using Pre-Authenticated Requests](https://docs.cloud.oracle.com/en-us/iaas/Content/Object/Tasks/usingpreauthenticatedrequests.htm)*
+4.	Click on Create Stack
+ 
+5.	Browse or drop terraform configuration file created in section 1. Provide the name and description. Select a compartment.
+ 
+6.	Click Next. Provide a public SSH key. Select the Availability Domain
 
-2. Sub step 2 with image and link to the text description below. The `sample1.txt` file must be added to the `files` folder.
+7.	Select an EPM Application
+ 
+In this case we have selected Financial Management
+Select Number of Nodes for an application
+Select Instance Shape, Volume Size and Volume performance.
 
-    ![Image alt text](images/sample1.png "Image title")
+8.	Select the Number of Instance shape Volume Size and Volume performance for the Foundation
+ 
 
-3. Ordered list item 3 with the same image but no link to the text description below.
+9.	Select Create EPM Database
 
-    ![Image alt text](images/sample1.png)
 
-4. Example with inline navigation icon ![Image alt text](images/sample2.png) click **Navigation**.
+Provide the required details
 
-5. One example with bold **text**.
+Select the DB Node, Shape and DB Size. 
 
-   If you add another paragraph, add 3 spaces before the line.
+10.	Select the Web Server Configuration
 
-## **STEP 2:** title
+11.	Load Balance Configuration
 
-1. Sub step 1
+12.	Click Next 
+ 
+Go through the summary of the selection and confirm your selection
+13.	Click on Create
 
-  Use tables sparingly:
+14.	Click on Terraform Actions -> Plan
 
-  | Column 1 | Column 2 | Column 3 |
-  | --- | --- | --- |
-  | 1 | Some text or a link | More text  |
-  | 2 |Some text or a link | More text |
-  | 3 | Some text or a link | More text |
+15.	Click on Plan
 
-2. You can also include bulleted lists - make sure to indent 4 spaces:
+Notice that Plan is in progress.
+Once the Plan Succeeded
 
-    - List item 1
-    - List item 2
+ 
+16.	Go back to Stack Details
+ 
 
-3. Code examples
+Notice that you plan is listed in succeeded status.
+17.	Click on Terraform Actions -> Apply
+ 
+ 
 
-    ```
-    Adding code examples
-  	Indentation is important for the code example to appear inside the step
-    Multiple lines of code
-  	<copy>Enclose the text you want to copy in <copy></copy>.</copy>
-    ```
+18.	Click on Apply
 
-4. Code examples that include variables
+ 
 
-	```
-  <copy>ssh -i <ssh-key-file></copy>
-  ```
+Plan will be in Accepted state
+
+ 
+
+Plan is in progress
+
+19.	Once it completes, Apply state will be succeeded and all the instance will have assigned host, ips , user and password.
+
 
 *At the conclusion of the lab add this statement:*
 You may proceed to the next lab.
