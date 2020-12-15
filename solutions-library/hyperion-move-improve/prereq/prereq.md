@@ -35,7 +35,7 @@ a. Ensure that the shared drive is mounted on all three Windows system from the 
 
 -	Creating epmservice user and giving it the access rights
 
-## **STEP 3**: Diable firewall
+## **STEP 3**: Disable firewall
 
 ## **STEP 4**: Installing SQL Developer, Firefox, Notepad++ on all three servers
 
