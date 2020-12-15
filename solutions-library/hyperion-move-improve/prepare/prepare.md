@@ -86,7 +86,7 @@ You will require to install SQL Developer, Notepad++, HFM installation files, Fi
 
 1. SQL Developer for Windows - https://www.oracle.com/in/tools/downloads/sqldev-v192-downloads.html Download the package "Windows 64-bit with JDK 8 included".
 2. Notepad ++ for Windows - https://notepad-plus-plus.org/downloads/v7.0/ Download the package "Notepad++ 7 - 64 bits"
-3. For the EPM installation file, go to the link - https://edelivery.oracle.com/ and search for Oracle Hyperion Financial Management Plus 11.2.3.0.000
+3. For the EPM installation file, go to the link - https://edelivery.oracle.com/ and search for Oracle Hyperion Financial Management Plus 11.2.3.0.000. Extract all these files to a single folder and move it to the shared folder.
 4. Download Firefox ESR using the link - https://www.mozilla.org/en-US/firefox/enterprise/
 
 Add all the downloaded files at the shared drive location on Linux system.
