@@ -80,7 +80,7 @@ NOTE: - The steps to create, attach, and connect to the block volume is given at
 
 Follow the steps provided on this link to mount the block volume to your linux system - https://docs.cloud.oracle.com/en-us/iaas/Content/GSG/Tasks/addingstorage.htm under "Attaching the Volume to an Instance"
 
-## **STEP 2**: Download required files and tools for HFM installation
+## **STEP 3**: Download required files and tools for HFM installation
 
 You will require to install SQL Developer, Notepad++, HFM installation files, Firefox ESR to run this lab. Login to your Linux sytem on VNC viewer and go to Firefox to download the following.
 
@@ -94,6 +94,8 @@ Add all the downloaded files at the shared drive location on Linux system.
 Reboot all the 4 compute instances of Linux and Windows. 
 
 When you reboot all the instances, the shared drive on Windows system should see the downloaded files.
+
+You can now proceed to next lab.
 
 ## Acknowledgements
 * **Author** - Mitsu Mehta, Cloud Engineering
