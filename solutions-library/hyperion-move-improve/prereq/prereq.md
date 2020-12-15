@@ -46,9 +46,7 @@ a. Ensure that the shared drive is mounted on all three Windows system from the 
 
 ```
 172.16.2.2 epmwebash11 epmwebash11.dbsubnet.epmvcn.oraclevcn.com
-
 172.16.3.4 epmfndash11 epmfndash11.dbsubnet.epmvcn.oraclevcn.com
-
 172.16.3.5 epmhfmash11 epmhfmash11.dbsubnet.epmvcn.oraclevcn.com
 
 ```
