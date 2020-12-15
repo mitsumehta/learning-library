@@ -76,7 +76,24 @@ I understand that data might become corrupted if the volume is used before a clu
 
 NOTE: - The steps to create, attach, and connect to the block volume is given at the URL - https://docs.cloud.oracle.com/en-us/iaas/Content/GSG/Tasks/addingstorageForWindows.html
 
+## **STEP 2**: Mount the Block volume to the Linux bastian host
+
+Follow the steps provided on this link to mount the block volume to your linux system - https://docs.cloud.oracle.com/en-us/iaas/Content/GSG/Tasks/addingstorage.htm under "Attaching the Volume to an Instance"
+
 ## **STEP 2**: Download required files and tools for HFM installation
+
+You will require to install SQL Developer, Notepad++, HFM installation files, Firefox ESR to run this lab. Login to your Linux sytem on VNC viewer and go to Firefox to download the following.
+
+1. SQL Developer for Windows - https://www.oracle.com/in/tools/downloads/sqldev-v192-downloads.html Download the package "Windows 64-bit with JDK 8 included".
+2. Notepad ++ for Windows - https://notepad-plus-plus.org/downloads/v7.0/ Download the package "Notepad++ 7 - 64 bits"
+3. For the EPM installation file, go to the link - https://edelivery.oracle.com/ and search for Oracle Hyperion Financial Management Plus 11.2.3.0.000
+4. Download Firefox ESR using the link - https://www.mozilla.org/en-US/firefox/enterprise/
+
+Add all the downloaded files at the shared drive location on Linux system.
+
+Reboot all the 4 compute instances of Linux and Windows. 
+
+When you reboot all the instances, the shared drive on Windows system should see the downloaded files.
 
 ## Acknowledgements
 * **Author** - Mitsu Mehta, Cloud Engineering
