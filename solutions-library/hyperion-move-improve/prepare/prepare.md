@@ -36,13 +36,13 @@ I understand that data might become corrupted if the volume is used before a clu
  
 8.	After mounting the shared drive on all three instances, you will have to login to all the three Windows compute boxes individually, as done on previous lab, and connect the volume to the instances. To attach the block volume to the compute instance, follow the steps –
 
- a.	Open the navigation menu. Under Core Infrastructure, go to Compute and click Instances. 
+     a.	Open the navigation menu. Under Core Infrastructure, go to Compute and click Instances. 
 
- b.	Click your instance name to view the instance details.
+     b.	Click your instance name to view the instance details.
 
- c.	In the Resources section, click Attached Block Volumes.
+     c.	In the Resources section, click Attached Block Volumes.
 
- d.	Click the Actions icon (three dots) next to the volume you just attached and then click iSCSI Commands and Information. The iSCSI Commands and Information dialog box opens. Notice that the dialog box displays specific identifying information about your volume (such as IP address and port) as well as the iSCSI commands that you can use.
+     d.	Click the Actions icon (three dots) next to the volume you just attached and then click iSCSI Commands and Information. The iSCSI Commands and Information        dialog box opens. Notice that the dialog box displays specific identifying information about your volume (such as IP address and port) as well as the iSCSI          commands that you can use.
 
  e.	On your Windows instance, open the iSCSI Initiator - Open Server Manager, click Tools, and select iSCSI Initiator.
  
