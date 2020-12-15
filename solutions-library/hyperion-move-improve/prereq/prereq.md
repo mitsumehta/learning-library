@@ -29,15 +29,36 @@ a. Ensure that the shared drive is mounted on all three Windows system from the 
 3. Click System Security
 4. Under Action Center, choose Change User Account Control settings
 5. Move the slider bar down to the Never notify selection and click OK
-6. Reboot the machine for changes to take effect
+6. Reboot the machine for changes to take effect.
 
 ## **STEP 2**: Creating epmservice user and giving it the access rights
 
--	Creating epmservice user and giving it the access rights
+### Part 1 - Create user and add to Admin group
 
+1. From start menu, search for Server Manager and run it as an admin. 
+2. Click on Tools from right top corner -> Click on Computer Management.
+3. From the left pane, expand Local Users and Groups -> Right-click Users and select New User.
+4. Enter the user name as **epmservice** and the Description as - **EPM Service Account**
+5. Check only the option - Password never expires.
+6. Setup the password as - **Welcome#1234** and click on Create.
+7. From the list of users, select the user you just created - **epmservice**.
+8. Right click on the user and click on Properties.
+9. From the tabs on the prompt, select **Member Of** tab.
+10. By default, the epmservice user is part of Users group. Select this and click on the remove button to remove the user from Users group.
+11. Now click on **Add** button. In the dialog box that appears, under the **Enter the object names to select**, enter **ADMINISTRATORS** and click on OK.
+12. Click on Apply. Click on OK.
+
+### Part 2 - Assign roles to the user
+
+1. From the start menu, search for MMC.
+ 
+ 
 ## **STEP 3**: Disable firewall
 
 ## **STEP 4**: Installing SQL Developer, Firefox, Notepad++ on all three servers
+
+1. From the shared drive, access the installers for SQLDeveloper, Notepad++, and Firefox. 
+2. Run the installers to install the three tools.
 
 ## **STEP 4**: Edit the host files
 
