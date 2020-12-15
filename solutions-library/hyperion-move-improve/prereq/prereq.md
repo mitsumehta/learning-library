@@ -50,8 +50,18 @@ a. Ensure that the shared drive is mounted on all three Windows system from the 
 
 ### Part 2 - Assign roles to the user
 
-1. From the start menu, search for MMC.
- 
+1. From the start menu, search for MMC. Right-click and open as an admin.
+2. Click on File option and select Add/Remove Snap-in.
+3. Select **Group Policy Object** from the Available snap-ins and click on the Add button.
+4. Keep the Group Policy Object as **Local Computer** and click on Finish.
+5. Click on OK.
+6. Now on the dialog, under **Console Root** on the left pane, under Local Computer Policy -> Windows Settings -> Click on Security Settings
+7. On the Right side pane, click on **Local Policies** from the list. 
+8. Select **User Rights Assignments** and select Act as part of the Operating System from the list of policies.
+9. Click on Add User or Group. Enter the object names to select - **EPMSERVICE**.
+10. Click on Apply and OK.
+
+Repeat this for the following policies - Bypass Traverse Checking, Log on as a batch job, and Log-on as a service.
  
 ## **STEP 3**: Disable firewall
 
