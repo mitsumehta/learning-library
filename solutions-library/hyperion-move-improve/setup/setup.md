@@ -56,16 +56,18 @@ To perform the lab, you will need -
 5. Enter the following command – 
 
       `` vncserver``
+      
+6. You will be prompted to set up a password for the vncserver. You can set the password as **Welcome#1234**. Confirm the password for second time.
 
-6. On a new terminal window, enter the following command for port forwarding. 
+7. On a new terminal window, enter the following command for port forwarding. 
 
    `` ssh -i <path_of_the_private_key> -L 5901:127.0.0.1:5901 opc@<public_IP_address>``
    
    *e.g. ssh -i /Users/mimehta/Desktop/sshkeybundle/privateKey -L 5901:127.0.0.1:5901 opc@193.122.148.251*
 
-7. Open the VNC viewer and enter the value in the text bar as **localhost:5901**
+8. Open the VNC viewer and enter the value in the text bar as **localhost:5901**
 
-8. You should now be able to see the Desktop of the Linux instance on VNC viewer. 
+9. You should now be able to see the Desktop of the Linux instance on VNC viewer. 
 
 ## **STEP 2:** Setting up the Windows systems
 
