@@ -41,6 +41,12 @@ a. Ensure that the shared drive is mounted on all three Windows system from the 
 
 ## **STEP 4**: Edit the host files
 
+1. On you File Explorer, go to the path -> C:\Windows\System32\drivers\etc
+2. Open the host file with Notepad ++ and add the following lines and save the file. Close the file.  
+
+172.16.2.2 epmwebash11 epmwebash11.dbsubnet.epmvcn.oraclevcn.com
+172.16.3.4 epmfndash11 epmfndash11.dbsubnet.epmvcn.oraclevcn.com
+172.16.3.5 epmhfmash11 epmhfmash11.dbsubnet.epmvcn.oraclevcn.com
 
 ## Acknowledgements
 * **Author** - Mitsu Mehta, Cloud Engineering
