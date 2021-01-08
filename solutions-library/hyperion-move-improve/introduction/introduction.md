@@ -40,8 +40,8 @@ Estimated Lab Time: n minutes -- this estimate is for the entire workshop - it i
 
     7. Oracle Hyperion Profitability and Cost Management
 
-        An application that provides actionable insights, by discovering drivers of cost and profitability,
-        empowering users with visibility and flexibility, and improving resource alignment.
+    An application that provides actionable insights, by discovering drivers of cost and profitability,
+    empowering users with visibility and flexibility, and improving resource alignment.
 
 
 ## Acknowledgements
