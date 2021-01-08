@@ -34,9 +34,9 @@ Estimated Lab Time: n minutes -- this estimate is for the entire workshop - it i
         A packaged solution that helps finance users develop standardized financial data management processes by using a web-based guided workflow.
 
     6.Oracle Hyperion Strategic Finance
-
-        A financial forecasting and modeling solution with on-the-fly scenario analysis and modeling capabilities, which helps you quickly model
-        and evaluate financial scenarios, and offers out of the box treasury capabilities for sophisticated debt and capital structure management.
+     
+     A financial forecasting and modeling solution with on-the-fly scenario analysis and modeling capabilities, which helps you quickly model
+     and evaluate financial scenarios, and offers out of the box treasury capabilities for sophisticated debt and capital structure management.
 
     7. Oracle Hyperion Profitability and Cost Management
 
