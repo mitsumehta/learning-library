@@ -6,101 +6,43 @@ This workshop is focusing on Hyperion on OCI.
 
 Estimated Lab Time: n minutes -- this estimate is for the entire workshop - it is the sum of the estimates provided for each of the labs included in the workshop.
 
-### About Product/Technology
-Enter background information here....
+1. Oracle Hyperion Foundation Services
 
-*You may add an option video, using this format: [](youtube:YouTube video id)*
+        Common infrastructure components that enable you to install and configure all the modules of the Enterprise Performance Management system;
+        and to manage users, security, metadata, and the life cycle of the applications.
 
-  [](youtube:zNKxJjkq0Pw)
+        Foundation Services are necessary regardless of whether you want to deploy Hyperion Financial Management, or Hyperion Planning, or both.
 
-### Objectives
+    2. Oracle Hyperion Financial Management (HFM)
 
-*List objectives for the lab - if this is the intro lab, list objectives for the workshop, for example:*
+        A multidimensional online analytical processing server on RDBMS that provides an environment for web-based consolidation, tax provision, QMR, JSK applications.
+        The application enables global financial consolidation, reporting, and analysis in a single, highly scalable software solution.
 
-In this lab, you will:
-* Provision
-* Setup
-* Data Load
-* Query
-* Analyze
-* Visualize
+    3. Oracle Hyperion Tax Provision (HTP)
 
-### Prerequisites
+        A comprehensive global tax provision solution for multinational companies reporting under US GAAP or IFRS.
+        The application encompasses all the stages of the corporate tax provision process, including tax automation,
+        data collection, tax provision calculation, return-to-accrual automation, and tax reporting and analysis.
+        The application is built using Oracle Hyperion Financial Management, and it leverages all the functionality provided by Financial Management.
 
-*Use this section to describe any prerequisites, including Oracle Cloud accounts, set up requirements, etc.*
+    4. Oracle Hyperion Planning
 
-* An Oracle Free Tier, Always Free, Paid or LiveLabs Cloud Account
-* Item no 2 with url - [URL Text](https://www.oracle.com).
+        A centralized, Excel and web-based planning, budgeting, and forecasting solution that integrates financial and operational planning processes and improves business predictability.
 
-*This is the "fold" - below items are collapsed by default*
+    5. Oracle Hyperion Financial Data Quality Management, Enterprise Edition (FDMEE)
 
-## **STEP 1**: title
+        A packaged solution that helps finance users develop standardized financial data management processes by using a web-based guided workflow.
 
-Step 1 opening paragraph.
+    6.Oracle Hyperion Strategic Finance
 
-1. Sub step 1
+        A financial forecasting and modeling solution with on-the-fly scenario analysis and modeling capabilities, which helps you quickly model
+        and evaluate financial scenarios, and offers out of the box treasury capabilities for sophisticated debt and capital structure management.
 
-  To create a link to local file you want the reader to download, use this format:
+    7. Oracle Hyperion Profitability and Cost Management
 
-  Download the [starter file](files/starter-file.sql) SQL code.
+        An application that provides actionable insights, by discovering drivers of cost and profitability,
+        empowering users with visibility and flexibility, and improving resource alignment.
 
-  *Note: do not include zip files, CSV, PDF, PSD, JAR, WAR, EAR, bin or exe files - you must have those objects stored somewhere else. We highly recommend using Oracle Cloud Object Store and creating a PAR URL instead. See [Using Pre-Authenticated Requests](https://docs.cloud.oracle.com/en-us/iaas/Content/Object/Tasks/usingpreauthenticatedrequests.htm)*
-
-2. Sub step 2 with image and link to the text description below. The `sample1.txt` file must be added to the `files` folder.
-
-    ![Image alt text](images/sample1.png "Image title")
-
-3. Ordered list item 3 with the same image but no link to the text description below.
-
-    ![Image alt text](images/sample1.png)
-
-4. Example with inline navigation icon ![Image alt text](images/sample2.png) click **Navigation**.
-
-5. One example with bold **text**.
-
-   If you add another paragraph, add 3 spaces before the line.
-
-## **STEP 2:** title
-
-1. Sub step 1
-
-  Use tables sparingly:
-
-  | Column 1 | Column 2 | Column 3 |
-  | --- | --- | --- |
-  | 1 | Some text or a link | More text  |
-  | 2 |Some text or a link | More text |
-  | 3 | Some text or a link | More text |
-
-2. You can also include bulleted lists - make sure to indent 4 spaces:
-
-    - List item 1
-    - List item 2
-
-3. Code examples
-
-    ```
-    Adding code examples
-  	Indentation is important for the code example to appear inside the step
-    Multiple lines of code
-  	<copy>Enclose the text you want to copy in <copy&gt;</copy>.</copy>
-    ```
-
-4. Code examples that include variables
-
-	```
-  <copy>ssh -i <ssh-key-file></copy>
-  ```
-
-*At the conclusion of the lab add this statement:*
-You may proceed to the next lab.
-
-## Learn More
-
-*(optional - include links to docs, white papers, blogs, etc)*
-
-* [URL text 1](http://docs.oracle.com)
-* [URL text 2](http://docs.oracle.com)
 
 ## Acknowledgements
 * **Author** - <Name, Title, Group>
