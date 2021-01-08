@@ -8,10 +8,10 @@ Estimated Lab Time: n minutes -- this estimate is for the entire workshop - it i
 
 1. Oracle Hyperion Foundation Services
 
-        Common infrastructure components that enable you to install and configure all the modules of the Enterprise Performance Management system;
-        and to manage users, security, metadata, and the life cycle of the applications.
+      Common infrastructure components that enable you to install and configure all the modules of the Enterprise Performance Management system;
+      and to manage users, security, metadata, and the life cycle of the applications.
 
-        Foundation Services are necessary regardless of whether you want to deploy Hyperion Financial Management, or Hyperion Planning, or both.
+      Foundation Services are necessary regardless of whether you want to deploy Hyperion Financial Management, or Hyperion Planning, or both.
 
     2. Oracle Hyperion Financial Management (HFM)
 
