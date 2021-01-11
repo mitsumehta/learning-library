@@ -2,7 +2,7 @@
 
 ## About this Workshop
 
-This workshop is focusing on Hyperion on OCI. 
+This workshop is focusing on setting up Hyperion modules on Oracle cloud infrastructure using . 
 
 Estimated Lab Time: n minutes -- this estimate is for the entire workshop - it is the sum of the estimates provided for each of the labs included in the workshop.
 
