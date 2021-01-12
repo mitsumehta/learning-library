@@ -2,9 +2,9 @@
 
 ## About this Workshop
 
-This workshop is focusing on setting up Hyperion modules on Oracle cloud infrastructure. 
+Hyperion is an Oracle Enterprise Performance Management product with a suite of apps under the umbrellas of Hyperion Financial Management and Hyperion Planning. This workshop is focusing on setting up Hyperion modules on Oracle cloud infrastructure. 
 
-Estimated Lab Time: 5-6 hours -- this estimate is for the entire workshop - it is the sum of the estimates provided for each of the labs included in the workshop.
+Estimated Lab Time: 6 hours -- this estimate is for the entire workshop - it is the sum of the estimates provided for each of the labs included in the workshop.
 
 Notes:
 
