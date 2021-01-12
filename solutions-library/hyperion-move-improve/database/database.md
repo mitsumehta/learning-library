@@ -27,17 +27,17 @@ scp /Users/mimehta/Desktop/sshkeybundle/privateKey -i /Users/mimehta/Desktop/ssh
 
 2. You will need the private IP address of the database instance. You can extract this information from the OCI console. 
 
-a. Login to your OCI tenancy using your tenancy admin username and password. 
+    a. Login to your OCI tenancy using your tenancy admin username and password. 
 
-b. From the left hamburger menu, select Barametal, VM, Exadata under Oracle Database.
+    b. From the left hamburger menu, select Barametal, VM, Exadata under Oracle Database.
 
-c. Navigate to the compartment where you have provisioned the resources for this workshop from the drop down menu. 
+    c. Navigate to the compartment where you have provisioned the resources for this workshop from the drop down menu. 
 
-d. Select the database - epmdbash11 from the list of the database. 
+    d. Select the database - epmdbash11 from the list of the database. 
 
-e. From the left hand options, select Nodes and copy the private IP address as shown below.
+    e. From the left hand options, select Nodes and copy the private IP address as shown below.
 
-f. Make a note of this DB private IP address. 
+    f. Make a note of this DB private IP address. 
 
 
 ## **STEP 1**: Accessing the DB
