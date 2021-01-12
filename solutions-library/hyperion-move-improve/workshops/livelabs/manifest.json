@@ -1,4 +1,4 @@
-{
+e {
   "workshoptitle": "The Title of the Workshop is defined in the manifest",
     "tutorials": [
         {
@@ -20,20 +20,20 @@
             "filename": "../../setup/setup.md"
         },
         {
-            "title": "Lab 3: Load Data into an Instance",
-            "filename": "../../data-load/data-load.md"
+            "title": "Lab 3: Prepare the environment",
+            "filename": "../../prepare/prepare.md"
         },
         {
-            "title": "Lab 4: Query Data",
-            "filename": "../../query/query.md"
+            "title": "Lab 4: Pre-requisites for the installation",
+            "filename": "../../prereq/prereq.md"
         },
         {
-            "title": "Lab 5: Analyze Data",
-            "filename": "../../analyze/analyze.md"
+            "title": "Lab 5: Setting up the database",
+            "filename": "../../database/database.md"
         },
         {
-            "title": "Lab 6: Visualize Data",
-            "filename": "../../visualize/visualize.md"
+            "title": "Lab 6: Installing the application",
+            "filename": "../../install/install.md"
         }
     ]
 }
