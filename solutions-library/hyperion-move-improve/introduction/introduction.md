@@ -14,9 +14,15 @@ For security purposes, some sensitive text (such as IP addresses) may be redacte
 
 ## Workshop Overview
 
-The following figure (W-1) outlines the workshop architecture. Figure W-1: Workshop Architecture
+The following figure (W-1) outlines the workshop architecture. 
+
+Figure W-1: Workshop Architecture
 
 ![](./images/W1.png "")
+
+## Introduction to Hyperion
+
+Here is the brief introduction of the different Hyperion products:
 
 1. Oracle Hyperion Foundation Services
 
@@ -47,6 +53,7 @@ A financial forecasting and modeling solution with on-the-fly scenario analysis 
 
 An application that provides actionable insights, by discovering drivers of cost and profitability, empowering users with visibility and flexibility, and improving resource alignment.
 
+In this exercise, we are going to install the HFM, Foundation service and FDMEE modules of Hyperion Product Suite to Oracle Cloud Infrastructure.
 
 ## Acknowledgements
 * **Author** - <Name, Title, Group>
