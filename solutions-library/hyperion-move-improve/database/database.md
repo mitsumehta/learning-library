@@ -81,10 +81,8 @@ ALTER SYSTEM SET SESSIONS=2000 SCOPE=SPFILE;
 
 ## **STEP 4**: Create tablespaces, users, assigning access and rights
 
-``
-CREATE tablespace hss_112;
+``CREATE tablespace hss_112;
 CREATE USER hss_112 IDENTIFIED BY WElcome#1234# DEFAULT TABLESPACE hss_112;
-
 
 GRANT CREATE ANY SYNONYM TO hss_112;
 GRANT CREATE CLUSTER TO hss_112;
@@ -156,8 +154,7 @@ GRANT CREATE TYPE TO calc_112;
 GRANT CREATE VIEW TO calc_112;
 GRANT DROP ANY SYNONYM TO calc_112;
 GRANT CREATE SESSION TO calc_112;
-Grant CREATE TABLE TO calc_112;
-``
+Grant CREATE TABLE TO calc_112;``
 
 ## **STEP 5**: Set Autoextend property
 
