@@ -70,7 +70,7 @@ Repeat this for the following policies - Bypass Traverse Checking, Log on as a b
 1. From the shared drive, access the installers for SQLDeveloper, Notepad++, and Firefox. 
 2. Run the installers to install the three tools.
 
-## **STEP 4**: Edit the host files
+## **STEP 5**: Edit the host files
 
 1. On you File Explorer, go to the path -> C:\Windows\System32\drivers\etc
 2. Open the host file with Notepad ++ and add the following lines and save the file. 
