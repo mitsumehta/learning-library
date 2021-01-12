@@ -20,16 +20,23 @@ In this lab, you will:
 ### Prerequisites
 
 1. You need to have the private key of your ssh bundle on the Bastion host. Copy the private key file from your local computer to the Desktop of the Bastion host.
+
 ``
 scp /Users/mimehta/Desktop/sshkeybundle/privateKey -i /Users/mimehta/Desktop/sshkeybundle/privateKey opc@193.122.148.251:/home/opc/Desktop
 ``
+
 2. You will need the private IP address of the database instance. You can extract this information from the OCI console. 
 
 a. Login to your OCI tenancy using your tenancy admin username and password. 
+
 b. From the left hamburger menu, select Barametal, VM, Exadata under Oracle Database.
+
 c. Navigate to the compartment where you have provisioned the resources for this workshop from the drop down menu. 
+
 d. Select the database - epmdbash11 from the list of the database. 
-e. From the left hand options, select Nodes and copy the private IP address as shown below. 
+
+e. From the left hand options, select Nodes and copy the private IP address as shown below.
+
 f. Make a note of this DB private IP address. 
 
 
