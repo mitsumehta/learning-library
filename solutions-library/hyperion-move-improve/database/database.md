@@ -53,11 +53,21 @@ To access your database on the VM on private subnet, follow the steps given belo
 
 ``sudo su oracle``
 
-4. Now lets login to the database using the SQL command as below - 
+4. Now lets login to the database using the SQL command as below to verify you can access the database using sql prompt - 
 
 ``sqlplus sys/WElcome#1234#@epmdbash11.dbsubnet.epmvcn.oraclevcn.com:1521/epmdb.dbsubnet.epmvcn.oraclevcn.com as sysdba``
 
+5,. Type ``exit`` to get out of the sql prompt.
+
 ## **STEP 2**: Set parameters on SQLnet.ora file
+
+1. Now you are going to edit the Sqlnet.ora file. In the command prompt logged in as oracle user, enter the command - ``cd $ORACLE_HOME``
+2. You will be taken to **db_home1** folder. Now navigate to the following folder - ``cd network/admin``
+3. Now edit the sqlnet.ora in the editor using the command - ``vi sqlnet.ora``
+4. In the editor, enter the "i" key to get into the edit mode.
+5. Add the following line to the end of the file - **max_string_size=standard** 
+6. Hit escape and enter ``:wq!`` to save the changes and quit. 
+
 ## **STEP 3**: Set other system parameters
 ## **STEP 4**: Create tablespaces, users, assigning access and rights
 ## **STEP 5**: Set Autoextend property
