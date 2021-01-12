@@ -2,9 +2,21 @@
 
 ## About this Workshop
 
-This workshop is focusing on setting up Hyperion modules on Oracle cloud infrastructure using . 
+This workshop is focusing on setting up Hyperion modules on Oracle cloud infrastructure. 
 
-Estimated Lab Time: n minutes -- this estimate is for the entire workshop - it is the sum of the estimates provided for each of the labs included in the workshop.
+Estimated Lab Time: 5-6 hours -- this estimate is for the entire workshop - it is the sum of the estimates provided for each of the labs included in the workshop.
+
+Notes:
+
+The workshop is quite detailed and technical. PLEASE take your time and DO NOT skip any steps.
+IP addresses and URLs in the screenshots in this workbook may differ from what you use in the labs as these are dynamically generated.
+For security purposes, some sensitive text (such as IP addresses) may be redacted in the screenshots in this workbook.
+
+## Workshop Overview
+
+The following figure (W-1) outlines the workshop architecture. Figure W-1: Workshop Architecture
+
+
 
 1. Oracle Hyperion Foundation Services
 
