@@ -8,9 +8,9 @@ Estimated Lab Time: 5-6 hours -- this estimate is for the entire workshop - it i
 
 Notes:
 
-The workshop is quite detailed and technical. PLEASE take your time and DO NOT skip any steps.
-IP addresses and URLs in the screenshots in this workbook may differ from what you use in the labs as these are dynamically generated.
-For security purposes, some sensitive text (such as IP addresses) may be redacted in the screenshots in this workbook.
+* The workshop is quite detailed and technical. PLEASE take your time and DO NOT skip any steps.
+* IP addresses and URLs in the screenshots in this workbook may differ from what you use in the labs as these are dynamically generated.
+* For security purposes, some sensitive text (such as IP addresses) may be redacted in the screenshots in this workbook.
 
 ## Workshop Overview
 
@@ -54,6 +54,15 @@ A financial forecasting and modeling solution with on-the-fly scenario analysis 
 An application that provides actionable insights, by discovering drivers of cost and profitability, empowering users with visibility and flexibility, and improving resource alignment.
 
 In this exercise, we are going to install the HFM, Foundation service and FDMEE modules of Hyperion Product Suite to Oracle Cloud Infrastructure.
+
+## Objectives of this workshop 
+
+* Provision resources on Oracle Cloud Infrastructure that are required for Hyperion to function
+* Setup the environment for easily accessing all the application and database instances
+* Prepare the environment for Hyperion installation
+* Perform all the pre-requisite steps for the installation
+* Setting up the database, its users, and database files
+* Running the installers to successfully run Hyperion on OCI
 
 ## Acknowledgements
 * **Author** - <Name, Title, Group>
