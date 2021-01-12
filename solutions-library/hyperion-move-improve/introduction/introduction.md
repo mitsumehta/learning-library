@@ -16,7 +16,7 @@ For security purposes, some sensitive text (such as IP addresses) may be redacte
 
 The following figure (W-1) outlines the workshop architecture. Figure W-1: Workshop Architecture
 
-![](./images/W1 Architecture.png "")
+![](./images/W1.png "")
 
 1. Oracle Hyperion Foundation Services
 
