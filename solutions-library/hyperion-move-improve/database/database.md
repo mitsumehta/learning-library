@@ -70,14 +70,12 @@ To access your database on the VM on private subnet, follow the steps given belo
 
 ## **STEP 3**: Set other system parameters
 
-`` ALTER SYSTEM SET processes=2000 SCOPE=SPFILE;
-
+`` 
+ALTER SYSTEM SET processes=2000 SCOPE=SPFILE;
 ALTER SYSTEM SET OPEN_CURSORS=5000 SCOPE=SPFILE;
-
 ALTER SYSTEM SET SESSION_CACHED_CURSORS=200 SCOPE=SPFILE;
-
-ALTER SYSTEM SET SESSIONS=2000 SCOPE=SPFILE; ``
-
+ALTER SYSTEM SET SESSIONS=2000 SCOPE=SPFILE;
+``
 ## **STEP 4**: Create tablespaces, users, assigning access and rights
 ## **STEP 5**: Set Autoextend property
 
