@@ -20,67 +20,97 @@ In this lab, you will:
 
 ## **STEP 1**: Download the resource manager package 
 
-Go the URL and download the hyperion.zip folder from this link - HERE. (add pre-auth request here)
+Go the URL and download the oci-hyperion.zip folder from this link - [HERE](https://objectstorage.us-ashburn-1.oraclecloud.com/p/6H2YLXgEPIxrIaL0ZjcEqa4-HcPbz2vK00_ZYT2L6aEyAPYVF9CoeAMkAHs4K74w/n/ociateam/b/Hyperion-HOL/o/oci-hyperion.zip)
 
-## **STEP 2:** Create OCI infrastructyre using terraform configuration file
+## **STEP 2:** Create OCI infrastructure using terraform configuration file
 
 1.	Login to OCI
 
-2.	Go to Menu -> Compute
+![](./images/image1.png "")
 
-3.	Go to Menu -> Resource Manger -> Stacks
+2.	Go to Menu -> Resource Manger -> Stacks
 
-4.	Click on Create Stack
+![](./images/image2.png "")
+
+3.	Click on Create Stack
+
+![](./images/image3.png "")
  
-5.	Browse or drop terraform configuration file created in section 1. Provide the name and description. Select a compartment.
+4.	Browse or drop oci-hyperion.zip configuration file downloaded in the previous step. Provide the name as HyperionHOL and Description as Hyperion on OCI. Select the compartment where you want to provision all your resources.
+
+![](./images/image4.png "")
  
-6.	Click Next. Provide a public SSH key. Select the Availability Domain
+5.	Click Next. Provide a public SSH key. Select the Availability Domain
 
-7.	Select an EPM Application
- 
-In this case we have selected Financial Management
-Select Number of Nodes for an application
-Select Instance Shape, Volume Size and Volume performance.
+![](./images/image9.png "")
 
-8.	Select the Number of Instance shape Volume Size and Volume performance for the Foundation
+6.	Select an EPM Application. In this case we have selected Financial Management. Select Number of Nodes for an application. Select Instance Shape, Volume Size and Volume performance.
 
-9.	Select Create EPM Database
+![](./images/image10.png "")
 
-Provide the required details
+7.	Select the Number of Instance shape Volume Size and Volume performance for the Foundation server.
 
-Select the DB Node, Shape and DB Size. 
+![](./images/image11.png "")
 
-10.	Select the Web Server Configuration
+8.	Select Create EPM Database. - Select the DB Node, Shape and DB Size. 
 
-11.	Load Balance Configuration
+![](./images/image12.png "")
 
-12.	Click Next 
- 
-Go through the summary of the selection and confirm your selection
-13.	Click on Create
+![](./images/image13.png "")
 
-14.	Click on Terraform Actions -> Plan
+![](./images/image14.png "")
 
-15.	Click on Plan
+![](./images/image15.png "")
 
-Notice that Plan is in progress.
-Once the Plan Succeeded
- 
-16.	Go back to Stack Details 
+9.	Select the Web Server Configuration
 
-Notice that you plan is listed in succeeded status.
+![](./images/image16.png "")
 
-17.	Click on Terraform Actions -> Apply
- 
-18.	Click on Apply
+10.	Load Balance Configuration
 
-Plan will be in Accepted state
+![](./images/image17.png "")
 
-Plan is in progress
+11.	Click Next. Go through the summary of the selection and confirm your selection.
 
-19.	Once it completes, Apply state will be succeeded and all the instance will have assigned host, ips , user and password.
+![](./images/image18.png "")
+
+12.	Click on Create
+
+13.	Click on Terraform Actions -> Click on Plan
+
+![](./images/image19.png "")
+
+14. Notice that Plan is in progress. Once the Plan Succeeded, go back to Stack Details. Notice that you plan is listed in succeeded status.
+
+![](./images/image20.png "")
+
+![](./images/image21.png "")
+
+![](./images/image22.png "")
+
+![](./images/image23.png "")
+
+![](./images/image24.png "")
+
+15.	Click on Terraform Actions -> Click on Apply
+
+![](./images/image26.png "")
+
+![](./images/image27.png "")
+
+16. Notice that the plan will be in Accepted state. Plan is in progress.
+
+![](./images/image28.png "")
+
+![](./images/image29.png "")
+
+17.	Once it completes, Apply state will be succeeded and all the instance will have assigned host, ips , user and password.
+
+![](./images/image30.png "")
 
 You can click on the Outputs option under Resources on the left pane. Record all the IPs and default passwords for the compute instances. 
+
+![](./images/image31.png "")
 
 You may proceed to the next lab.
 
