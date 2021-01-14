@@ -27,7 +27,13 @@ To perform the lab, you will need -
 
 1. Login to your OCI account and click on the hamburger menu on the top left corner –> Click on Compute -> Click on Instances. 
 
+![](./images/image1.png "")
+
 2. Click on the epmbasash11 instance and copy the public IP address.
+
+![](./images/image2.png "")
+
+![](./images/image3.png "")
 
 3. Open your terminal on your local system and login to the Linux bastion host using the command – 
 
@@ -35,27 +41,39 @@ To perform the lab, you will need -
 
    *e.g. ssh -i /Users/mimehta/Desktop/sshkeybundle/privateKey opc@193.122.148.251*
 
+   ![](./images/image4.png "")
+
 4. Once you are logged in to the server, 
 
    a. Install gnome-desktop, using the command – 
 
       `` sudo yum groupinstall "gnome-desktop" -y ``
 
+      ![](./images/image5.png "")
+
    b. Install tigervnc-server, using the command – 
 
       `` sudo yum install "tigervnc-server" -y `` 
+
+      ![](./images/image6.png "")
 
    c. Install remmina using the command 	
 
       `` sudo yum install remmina``
 
+      ![](./images/image7.png "")
+
    d. Install Firefox using the command 	
 
       `` sudo yum install firefox ``
 
+      ![](./images/image8.png "")
+
 5. Enter the following command – 
 
       `` vncserver``
+
+      ![](./images/image9.png "")
       
 6. You will be prompted to set up a password for the vncserver. You can set the password as **Welcome#1234**. Confirm the password for second time.
 
@@ -65,19 +83,39 @@ To perform the lab, you will need -
    
    *e.g. ssh -i /Users/mimehta/Desktop/sshkeybundle/privateKey -L 5901:127.0.0.1:5901 opc@193.122.148.251*
 
+   ![](./images/image10.png "")
+
 8. Open the VNC viewer and enter the value in the text bar as **localhost:5901**
 
+![](./images/image11.png "")
+
+You will be prompted to continue to authenticate. Enter the password you set in step 6 - Welcome#1234 and hit enter.
+
+![](./images/image12.png "")
+
 9. You should now be able to see the Desktop of the Linux instance on VNC viewer. 
+
+![](./images/image13.png "")
 
 ## **STEP 2:** Setting up the Windows systems
 
 1. We will now setup and verify the three Windows compute instances provisioned. To log into the private IP address of EPM web, HFM, and foundation servers, you need the private IP address of these instances. Retrieve the IP address from OCI console -> Left top Hamburger menu -> Compute -> Instances. Navigate to the compartment and region where you have provisioned the resources and take a note of the IP address for all three servers - **epmfndash11, emphfmash11, epmwebash11**
 
+![](./images/image14.png "")
+
+![](./images/image15.png "")
+
 2. Make a note of the Initial password of all three instances.
+
+![](./images/image16.png "")
 
 3. Now go back to the Tiger VNC viewer, open Remmina application from the application list. Click on Application -> Internet -> Remmina. 
 
+![](./images/image17.png "")
+
 4. Select RDP from the list of protocols, Enter the private IP address of the epmfndash11 in the text box and hit enter. You will be prompted to enter the initial password that you have taken a note of. 
+
+![](./images/image18.png "")
  
 5. On this step you will have to reset the password for the Windows instance. For this exercise, keep the standard password as **Welcome#1234**.
 
